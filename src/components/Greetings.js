@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { fetchMessage } from '../redux/messagesSlice';
 
 const Greetings = () => {
-  const greetings = useSelector((store) => store.greetings);
+  const greetings = useSelector((store) => store.messages);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -13,7 +13,7 @@ const Greetings = () => {
   return (
     <div>
       <h1>My greetings</h1>
-      <h2>{greetings.messages}</h2>
+      <h2>{greetings.message}</h2>
     </div>
   );
 };
