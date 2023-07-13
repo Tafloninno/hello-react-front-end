@@ -77,6 +77,12 @@ Hello React Front-end is a simple website that fechtes random greetng using rail
 
 
 
+
+## Key Features <a name="Key-features"></a>
+
+
+- [ ] **Fetch Api**
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
